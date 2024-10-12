@@ -187,7 +187,7 @@ img {
     .menu-btn {
         display: block;
     }
-    .nav.-list {
+    .main-menu {
         flex-direction: column;
         bakground: var(--dark-color);
         position: absolute;
@@ -198,10 +198,10 @@ img {
         padding-top: 80px;
         transition: all 0.3s ease;
     }
-    .nav-list.active {
+    .main-menu.active {
         right: 0;
     }
-    .nav-list li:not(:last-child) {
+    .main-menu li:not(:last-child) {
         text-align: left;
         width: 100%;
         padding: 10px 30px;
