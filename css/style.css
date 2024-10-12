@@ -175,3 +175,23 @@ img {
 .text-center {
     text-align: center;
 }
+
+@media screen and (max-width:520px) {
+    .nav.-list {
+        flex-direction: column;
+        bakground: var(--dark-color);
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 80%;
+        height: 100vh;
+        padding-top: 80px;
+    }
+    .nav-list li:not(:last-child) {
+        text-align: left;
+        width: 100%;
+        padding: 10px 30px;
+        border-bottom: 1px solid var(--light-color);
+    } 
+}
+        
